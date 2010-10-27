@@ -1,10 +1,1 @@
-f = document.createElement("IMG");
-f.src = "http://labs.tribalddb.nl/fwa/fwa.png";
-f.style.position = "absolute";
-f.style.top  = "0px";
-f.style.right = "0px";
-f.style.cursor = "pointer";
-f.onclick = function() { window.location = "http://thefwa.com/" }
-b = document.getElementsByTagName("BODY");
-b[0].appendChild(f);
-window.scrollTo(0,0);
+d=document;w=window;f=d.createElement("IMG");f.src="http://github.com/janwillempenterman/Instant-FWA/raw/master/fwa.png";s=f.style;s.position="absolute";s.top=s.right="0px";s.cursor="pointer";f.onclick=function(){w.location="http://thefwa.com/"};b=d.getElementsByTagName("BODY");b[0].appendChild(f);w.scrollTo(0,0);
